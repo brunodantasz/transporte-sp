@@ -21,15 +21,16 @@ de ônibus na Região Metropolitana de São Paulo (RMSP).
 - **pandas** — manipulação de tabelas
 
 ## Estrutura do Projeto
-projeto-transporte-sp/
-├── coleta.ipynb              # Notebook de coleta e armazenamento dos dados
-├── analise.ipynb             # Notebook de análise e visualização
-├── dados/
-│   ├── MEOP25_RMSP_CEM.shp  # Estações de metrô (+ arquivos auxiliares)
-│   ├── ONCO25_RMSP_CEM.shp  # Corredores de ônibus (+ arquivos auxiliares)
-│   ├── ONTE25_RMSP_CEM.shp  # Terminais de ônibus (+ arquivos auxiliares)
-│   └── transporte_sp.duckdb  # Banco de dados DuckDB
-└── README.md
+
+    projeto-transporte-sp/
+    ├── coleta.ipynb
+    ├── analise.ipynb
+    ├── dados/
+    │   ├── MEOP25_RMSP_CEM.shp
+    │   ├── ONCO25_RMSP_CEM.shp
+    │   ├── ONTE25_RMSP_CEM.shp
+    │   └── transporte_sp.duckdb
+    └── README.md
 
 ## Como Executar
 
